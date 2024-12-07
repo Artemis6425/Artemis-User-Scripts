@@ -8,10 +8,9 @@
 // @include        https://www.amazon.*/*gp/product/*
 // @include        https://www.amazon.*/exec/obidos/ASIN/*
 // @include        https://www.amazon.*/o/ASIN/*
-// @version        1.0
+// @version        1.01
 // @downloadURL    https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Amazon%20URL%20Cleaner.user.js
 // @updateURL      https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Amazon%20URL%20Cleaner.user.js
-// @run-at         document-end
 // ==/UserScript==
 (function(doc) {
     // ASIN.0 in kindle store
