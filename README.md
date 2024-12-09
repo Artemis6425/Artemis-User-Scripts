@@ -2,6 +2,8 @@
 Various user scrips I've modified to work the way I want to
 Credit will be given to where I get them, and I will also list what changes I made
 
+These scripts require the usage of [Tampermonkey](https://www.tampermonkey.net/), [ViolentMonkey](https://violentmonkey.github.io/), or some other userscript extension.
+
 ## Amazon URL Cleaner
 ### Install link: [here](https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Amazon%20URL%20Cleaner.user.js)
 ### Description
