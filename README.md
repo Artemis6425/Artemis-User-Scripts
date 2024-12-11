@@ -26,7 +26,7 @@ I made this
 
 
 ## Twitch Raid Remover
-### Install link: here
+### Install link: [here](https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Twitch%20Raid%20Remover.user.js)
 ### Description
 After a streamer raids another channel, immediately remove the `?referrer=raid` in the URL and refreshes the page.
 ### Credit
