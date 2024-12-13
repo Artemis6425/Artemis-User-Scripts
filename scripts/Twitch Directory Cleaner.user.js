@@ -2,7 +2,7 @@
 // @id           Twitch Directory Cleaner
 // @name         Twitch Directory Cleaner
 // @namespace    https://github.com/Artemis6425/Artemis-User-Scripts
-// @version      1.03
+// @version      1.04
 // @updateURL    https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Twitch%20Directory%20Cleaner.user.js
 // @downloadURL  https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Twitch%20Directory%20Cleaner.user.js
 // @description  Removes Channels from any directory if they are found on a list.
@@ -19,31 +19,31 @@
 (function() {
     'use strict';
     var streams = [
-      	"simplyspeedruns",
-      	"armada247",
-      	"bubzia247",
-      	"puncayshunstreams",
-      	"weegeewatchparty",
-      	"popewatchparty",
-      	"zfg247",
-		"HexSpeedruns247",
-		"SpeedrunMarioBros",
-		"SpeedrunStarWars",
-		"SpeedrunRPG",
-		"SpeedrunFinalFantasy",
-		"SpeedrunSonic",
-		"SpeedrunZelda",
-		"SpeedrunGrandTheftAuto",
-		"Speedrun3",
-		"Speedrun2",
-		"SpeedrunAnime",
-		"SpeedrunFPS",
-		"SpeedrunLEGO",
-		"SpeedrunPokemon",
-		"SpeedrunResidentEvil",
-		"SpeedrunRetro",
-		"SpeedrunTAS",
-		"SpeedrunPlatformer"
+    	"simplyspeedruns",
+    	"armada247",
+    	"bubzia247",
+    	"puncayshunstreams",
+    	"weegeewatchparty",
+    	"popewatchparty",
+    	"zfg247",
+		"hexspeedruns247",
+		"speedrunmariobros",
+		"speedrunstarwars",
+		"speedrunrpg",
+		"speedrunfinalfantasy",
+		"speedrunsonic",
+		"speedrunzelda",
+		"speedrungrandtheftauto",
+		"speedrun3",
+		"speedrun2",
+		"speedrunanime",
+		"speedrunfps",
+		"speedrunlego",
+		"speedrunpokemon",
+		"speedrunresidentevil",
+		"speedrunretro",
+		"speedruntas",
+		"speedrunplatformer"
     ]
 
 
