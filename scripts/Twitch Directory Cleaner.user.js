@@ -44,7 +44,8 @@
 		"speedrunretro",
 		"speedruntas",
 		"speedrunplatformer",
-		"speedrunhypetv"
+		"speedrunhypetv",
+		"247chrism"
     ]
 
 
