@@ -26,7 +26,24 @@
       	"weegeewatchparty",
       	"popewatchparty",
       	"zfg247",
-		"HexSpeedruns247"
+		"HexSpeedruns247",
+		"SpeedrunMarioBros",
+		"SpeedrunStarWars",
+		"SpeedrunRPG",
+		"SpeedrunFinalFantasy",
+		"SpeedrunSonic",
+		"SpeedrunZelda",
+		"SpeedrunGrandTheftAuto",
+		"Speedrun3",
+		"Speedrun2",
+		"SpeedrunAnime",
+		"SpeedrunFPS",
+		"SpeedrunLEGO",
+		"SpeedrunPokemon",
+		"SpeedrunResidentEvil",
+		"SpeedrunRetro",
+		"SpeedrunTAS",
+		"SpeedrunPlatformer"
     ]
 
 
