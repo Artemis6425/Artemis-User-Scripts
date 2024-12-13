@@ -2,7 +2,7 @@
 // @id           Twitch Directory Cleaner
 // @name         Twitch Directory Cleaner
 // @namespace    https://github.com/Artemis6425/Artemis-User-Scripts
-// @version      1.04
+// @version      1.05
 // @updateURL    https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Twitch%20Directory%20Cleaner.user.js
 // @downloadURL  https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Twitch%20Directory%20Cleaner.user.js
 // @description  Removes Channels from any directory if they are found on a list.
@@ -19,13 +19,13 @@
 (function() {
     'use strict';
     var streams = [
-    	"simplyspeedruns",
-    	"armada247",
-    	"bubzia247",
-    	"puncayshunstreams",
-    	"weegeewatchparty",
-    	"popewatchparty",
-    	"zfg247",
+		"simplyspeedruns",
+		"armada247",
+		"bubzia247",
+		"puncayshunstreams",
+		"weegeewatchparty",
+		"popewatchparty",
+		"zfg247",
 		"hexspeedruns247",
 		"speedrunmariobros",
 		"speedrunstarwars",
@@ -43,7 +43,8 @@
 		"speedrunresidentevil",
 		"speedrunretro",
 		"speedruntas",
-		"speedrunplatformer"
+		"speedrunplatformer",
+		"speedrunhypetv"
     ]
 
 
@@ -54,22 +55,22 @@
 
             // Deletes all streams on category load
             Array.from(container.children).forEach((child, index) => {
-              	if(child.classList.contains('tw-tower')){
-                	if (child.children.length > 0) {
-                  		Array.from(child.children).forEach((nestedChild, nestedIndex) => {
-                    		if(nestedChild.hasAttribute('data-target')){
-                      			var links = nestedChild.querySelectorAll('a[href]')
-                      			for(i=0; i < streams.length; i++){
-                        			var matchingLink = Array.from(links).find(link => link.href.includes(streams[i]));
-                        			if(matchingLink){
-                          				console.log("removing stream " + streams[i] + " from directory")
-                          				nestedChild.remove()
-                        			}
-                      			}
-                    		}
-                  		});
-                	}
-              	}
+				if(child.classList.contains('tw-tower')){
+					if (child.children.length > 0) {
+						Array.from(child.children).forEach((nestedChild, nestedIndex) => {
+							if(nestedChild.hasAttribute('data-target')){
+								var links = nestedChild.querySelectorAll('a[href]')
+								for(i=0; i < streams.length; i++){
+									var matchingLink = Array.from(links).find(link => link.href.includes(streams[i].toLowerCase()));
+									if(matchingLink){
+										console.log("removing stream " + streams[i] + " from directory")
+										nestedChild.remove()
+									}
+								}
+							}
+						});
+					}
+				}
             });
 
             // Deletes all streams when scrolling
@@ -79,14 +80,14 @@
                         mutation.addedNodes.forEach((node) => {
                             if (node.nodeType === Node.ELEMENT_NODE) {
                                 if(node.hasAttribute('data-target')){
-                                  	var links = node.querySelectorAll('a[href]')
-                                  	for(i=0; i < streams.length; i++){
-                                    	var matchingLink = Array.from(links).find(link => link.href.includes(streams[i]));
-                                    	if(matchingLink){
-                                      		console.log("removing stream " + streams[i] + " from directory")
-                                      		node.remove()
-                                    	}
-                                  	}
+									var links = node.querySelectorAll('a[href]')
+									for(i=0; i < streams.length; i++){
+										var matchingLink = Array.from(links).find(link => link.href.includes(streams[i]));
+										if(matchingLink){
+											console.log("removing stream " + streams[i] + " from directory")
+											node.remove()
+										}
+									}
                                 }
                             }
                         });
