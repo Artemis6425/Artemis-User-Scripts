@@ -9,6 +9,7 @@ These scripts require the usage of [Tampermonkey](https://www.tampermonkey.net/)
 
 
 ## Amazon URL Cleaner
+### Last update: 12/11/24
 ### Install link: [here](https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Amazon%20URL%20Cleaner.user.js)
 ### Description
 This fixes the Amazon URL to remove all that tracking garbage so you can share a short link.
@@ -19,6 +20,7 @@ This was originally from [this script](https://greasyfork.org/en/scripts/1162-am
 
 
 ## Twitch Directory Cleaner
+### Last update: 12/13/24
 ### Install link: [here](https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Twitch%20Directory%20Cleaner.user.js)
 ### Description
 Allows the user to have a list of streams to remove from category directories
@@ -29,6 +31,7 @@ I made this
 
 
 ## Twitch Raid Remover
+### Last update: 12/11/24
 ### Install link: [here](https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Twitch%20Raid%20Remover.user.js)
 ### Description
 After a streamer raids another channel, immediately remove the `?referrer=raid` in the URL and refreshes the page.
