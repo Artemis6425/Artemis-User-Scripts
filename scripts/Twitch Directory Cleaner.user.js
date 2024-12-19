@@ -2,7 +2,7 @@
 // @id           Twitch Directory Cleaner
 // @name         Twitch Directory Cleaner
 // @namespace    https://github.com/Artemis6425/Artemis-User-Scripts
-// @version      1.08
+// @version      1.09
 // @updateURL    https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Twitch%20Directory%20Cleaner.user.js
 // @downloadURL  https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Twitch%20Directory%20Cleaner.user.js
 // @description  Removes Channels from any directory if they are found on a list.
@@ -46,7 +46,8 @@
 		"speedrunplatformer",
 		"speedrunhypetv",
 		"247chrism",
-		"shyguyjj"
+		"shyguyjj",
+		"zockerstuebchen_tv"
     ]
 
 

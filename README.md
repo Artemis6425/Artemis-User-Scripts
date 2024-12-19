@@ -20,7 +20,7 @@ This was originally from [this script](https://greasyfork.org/en/scripts/1162-am
 
 
 ## Twitch Directory Cleaner
-### Last update: 12/18/24
+### Last update: 12/19/24
 ### Install link: [here](https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Twitch%20Directory%20Cleaner.user.js)
 ### Description
 Allows the user to have a list of streams to remove from category directories
@@ -35,5 +35,7 @@ I made this
 ### Install link: [here](https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Twitch%20Raid%20Remover.user.js)
 ### Description
 After a streamer raids another channel, immediately remove the `?referrer=raid` in the URL and refreshes the page.
+
+This might be broken. Still a work in progress!!
 ### Credit
 I made this
