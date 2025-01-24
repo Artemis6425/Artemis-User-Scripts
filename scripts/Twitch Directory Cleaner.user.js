@@ -51,7 +51,13 @@
 		"checkpoint_radio",
 		"pixelstation64",
 		"247cheese",
-		"niniste247"
+		"niniste247",
+		"slade247",
+		"tyronreruns",
+		"cjya247",
+		"jinglebellsgamingsm",
+		"niftski247",
+		"kosmic247"
     ]
 
 
