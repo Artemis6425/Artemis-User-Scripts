@@ -2,7 +2,7 @@
 // @id           Twitch Directory Cleaner
 // @name         Twitch Directory Cleaner
 // @namespace    https://github.com/Artemis6425/Artemis-User-Scripts
-// @version      1.10.3
+// @version      1.10.4
 // @updateURL    https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Twitch%20Directory%20Cleaner.user.js
 // @downloadURL  https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Twitch%20Directory%20Cleaner.user.js
 // @description  Removes Channels from any directory if they are found on a list.
@@ -57,7 +57,13 @@
 		"cjya247",
 		"jinglebellsgamingsm",
 		"niftski247",
-		"kosmic247"
+		"kosmic247",
+		"grandpoobear247",
+		"lirik_247",
+		"ramee_247",
+		"247_andy",
+		"247carcinogensda",
+		"247marco"
     ]
 
 
