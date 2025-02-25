@@ -20,12 +20,14 @@ This was originally from [this script](https://greasyfork.org/en/scripts/1162-am
 
 
 ## Twitch Directory Cleaner
-### Last update: 1/24/25
+### Last update: 2/25/25
 ### Install link: [here](https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Twitch%20Directory%20Cleaner.user.js)
 ### Description
 Allows the user to have a list of streams to remove from category directories
 
 The included array of streams to remove are 24/7 streams, primarily in the Super Mario 64 directory.
+
+This is now updated to work with the version of the twitch layout that is currently being tested, with a stream auto-playing at the top!
 ### Credit
 I made this
 
