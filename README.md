@@ -27,7 +27,11 @@ Allows the user to have a list of streams to remove from category directories
 
 The included array of streams to remove are 24/7 streams, primarily in the Super Mario 64 directory.
 
-This is now updated to work with the version of the twitch layout that is currently being tested, with a stream auto-playing at the top!
+**Major update:** This now reads from an external `.json` file for the ban list. No more updating the script to get the most up-to-date list! Alternatively, you can replace the `.json` reource link with your own to share your ban list with others. Or, replace the `streams` variable with your own in-code array.
+
+**Minor update:** This now supports the beta Twitch layout with the videoplayer at the top. 
+
+**Note:** This script currently requires you to refresh the category page for it to execute. 
 ### Credit
 I made this
 

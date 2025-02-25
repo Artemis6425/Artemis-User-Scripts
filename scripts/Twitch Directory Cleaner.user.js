@@ -2,14 +2,19 @@
 // @id           Twitch Directory Cleaner
 // @name         Twitch Directory Cleaner
 // @namespace    https://github.com/Artemis6425/Artemis-User-Scripts
-// @version      1.10.4
+// @version      1.11.0
 // @updateURL    https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Twitch%20Directory%20Cleaner.user.js
 // @downloadURL  https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Twitch%20Directory%20Cleaner.user.js
 // @description  Removes Channels from any directory if they are found on a list.
 // @author       Artemis6425
 // @match        *://*twitch.tv/directory/category/*
 // @run-at       document-end
-// @grant        none
+// @grant        GM_getResourceText
+// @grant        GM.getResourceUrl
+//
+// REPLACE THE BELOW RESOURCE WITH YOUR PREFERRED JSON BAN LIST. IF YOU WOULD RATHER HAVE IT BUILT INTO THE SCRIPT, CHANGE IT ON LINE 27
+// @resource streams https://raw.githubusercontent.com/Artemis6425/Artemis-User-Scripts/refs/heads/main/scripts/script-resources/247-hide-list.json
+//
 // ==/UserScript==
 
 
@@ -18,54 +23,8 @@
 
 (function() {
     'use strict';
-    var streams = [
-		"simplyspeedruns",
-		"armada247",
-		"bubzia247",
-		"puncayshunstreams",
-		"weegeewatchparty",
-		"popewatchparty",
-		"zfg247",
-		"hexspeedruns247",
-		"speedrunmariobros",
-		"speedrunstarwars",
-		"speedrunrpg",
-		"speedrunfinalfantasy",
-		"speedrunsonic",
-		"speedrunzelda",
-		"speedrungrandtheftauto",
-		"speedrun3",
-		"speedrun2",
-		"speedrunanime",
-		"speedrunfps",
-		"speedrunlego",
-		"speedrunpokemon",
-		"speedrunresidentevil",
-		"speedrunretro",
-		"speedruntas",
-		"speedrunplatformer",
-		"speedrunhypetv",
-		"247chrism",
-		"shyguyjj",
-		"zockerstuebchen_tv",
-		"checkpoint_radio",
-		"pixelstation64",
-		"247cheese",
-		"niniste247",
-		"slade247",
-		"tyronreruns",
-		"cjya247",
-		"jinglebellsgamingsm",
-		"niftski247",
-		"kosmic247",
-		"grandpoobear247",
-		"lirik_247",
-		"ramee_247",
-		"247_andy",
-		"247carcinogensda",
-		"247marco"
-    ]
 
+    var streams = JSON.parse(GM_getResourceText("streams"))
 
     var container = null;
 	var legacy = false
