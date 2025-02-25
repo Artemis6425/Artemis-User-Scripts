@@ -174,7 +174,7 @@
 		}
 
         console.log('Container found:', container);
-        setTimeout(removeStreams, 2000);
+        setTimeout(removeStreams, 1000);
     }
 
 
