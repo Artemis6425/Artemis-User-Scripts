@@ -36,12 +36,21 @@ The included array of streams to remove are 24/7 streams, primarily in the Super
 I made this
 
 
+## One Click Copy Link Button for Bluesky
+### Last update: 3/17/25
+### Install link: [here](https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Bluesky%20Copy%20Button.user.js)
+### Description
+Adds a button to copy the URL of a post on Bluesky without clicking the dropdown.
+### Credit
+Edited/rewritten by me. Based off of [this script](https://greasyfork.org/en/scripts/482477-one-click-copy-link-button-for-twitter-x) by [Dinomcworld](https://greasyfork.org/en/users/1234841-dinomcworld) that does this but for Twitter.  I highly recommend their script too, works great!
+
+
 ## Twitch Raid Remover
 ### Last update: 2/14/25
 ### Install link: [here](https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Twitch%20Raid%20Remover.user.js)
 ### Description
 After a streamer raids another channel, immediately remove the `?referrer=raid` in the URL and refreshes the page.
 
-This works now! I promise
+This works now! I promise (lol i don't think it works still)
 ### Credit
 I made this
