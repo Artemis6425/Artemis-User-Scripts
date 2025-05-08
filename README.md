@@ -19,6 +19,15 @@ This fixes the Amazon URL to remove all that tracking garbage so you can share a
 This was originally from [this script](https://greasyfork.org/en/scripts/1162-amazon-url-cleaner) by user [azu 2](https://greasyfork.org/en/users/124-azu-2)
 
 
+## Ebay URL Cleaner
+### Last update: 5/8/25
+### Install link: [here](https://raw.githubusercontent.com/Artemis6425/Artemis-User-Scripts/refs/heads/main/scripts/Ebay%20URL%20Cleaner.user.js)
+### Description
+This fixes the Ebay URL to remove all that tracking garbage so you can share a short link.
+### Credit
+I made this
+
+
 ## Twitch Directory Cleaner
 ### Last update: 2/25/25
 ### Install link: [here](https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Twitch%20Directory%20Cleaner.user.js)

@@ -5,8 +5,9 @@
 // @author         Artemis6425
 // @description    Removes URL tracking for Ebay URLs for easier sharing
 // @include        *://*ebay.*/itm/*
-// @downloadURL
-// @updateURL
+// @version        1.0
+// @downloadURL    https://raw.githubusercontent.com/Artemis6425/Artemis-User-Scripts/refs/heads/main/scripts/Ebay%20URL%20Cleaner.user.js
+// @updateURL      https://raw.githubusercontent.com/Artemis6425/Artemis-User-Scripts/refs/heads/main/scripts/Ebay%20URL%20Cleaner.user.js
 // ==/UserScript==
 (function(doc) {
 
