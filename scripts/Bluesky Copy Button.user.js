@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         One Click Copy Link Button for Bluesky
 // @namespace    https://github.com/Artemis6425/Artemis-User-Scripts
-// @version      1.0
+// @version      1.01
 // @description  Add a button to copy the URL of a post on Bluesky without clicking the dropdown. Based off of Dinomcworld's script for Twitter, found here: https://greasyfork.org/scripts/482477/
 // @author       Artemis6425 & Dinomcworld
 // @match        *://bsky.app/*
