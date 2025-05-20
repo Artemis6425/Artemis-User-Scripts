@@ -30,7 +30,7 @@
                 copyBox.innerHTML = ''
 
                 const copyIcon = document.createElement('button');
-                copyIcon.classList.add('custom-copy-icon', 'css-175oi2r', 'r-1loqt21', 'r-1otgn73');
+                copyIcon.classList.add('custom-copy-icon', 'css-g5y9jx', 'r-1loqt21', 'r-1otgn73');
                 copyIcon.setAttribute('aria-label', 'Copy link');
                 copyIcon.setAttribute('role', 'button');
                 copyIcon.setAttribute('type', 'button')
