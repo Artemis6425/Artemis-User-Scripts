@@ -46,7 +46,7 @@ I made this
 
 
 ## One Click Copy Link Button for Bluesky
-### Last update: 3/17/25
+### Last update: 5/19/25
 ### Install link: [here](https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Bluesky%20Copy%20Button.user.js)
 ### Description
 Adds a button to copy the URL of a post on Bluesky without clicking the dropdown.
