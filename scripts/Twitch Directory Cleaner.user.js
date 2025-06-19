@@ -2,7 +2,7 @@
 // @id           Twitch Directory Cleaner
 // @name         Twitch Directory Cleaner
 // @namespace    https://github.com/Artemis6425/Artemis-User-Scripts
-// @version      1.11.0
+// @version      1.12.0
 // @updateURL    https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Twitch%20Directory%20Cleaner.user.js
 // @downloadURL  https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Twitch%20Directory%20Cleaner.user.js
 // @description  Removes Channels from any directory if they are found on a list. Requires a refresh of the category page to work.
@@ -12,7 +12,7 @@
 // @grant        GM_getResourceText
 //
 // REPLACE THE BELOW RESOURCE WITH YOUR PREFERRED JSON BAN LIST. IF YOU WOULD RATHER HAVE IT BUILT INTO THE SCRIPT, CHANGE IT ON LINE 27
-// @resource streams https://raw.githubusercontent.com/Artemis6425/Artemis-User-Scripts/refs/heads/main/scripts/script-resources/247-hide-list.json
+// @resource streams https://raw.githubusercontent.com/Artemis6425/Artemis-User-Scripts/refs/heads/main/scripts/script-resources/247-hide-list.json?t=${Date.now()}
 //
 // ==/UserScript==
 

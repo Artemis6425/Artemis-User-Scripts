@@ -29,7 +29,7 @@ I made this
 
 
 ## Twitch Directory Cleaner
-### Last update: 2/25/25
+### Last update: 6/19/25
 ### Install link: [here](https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Twitch%20Directory%20Cleaner.user.js)
 ### Description
 Allows the user to have a list of streams to remove from category directories
