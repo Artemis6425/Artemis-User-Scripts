@@ -3,7 +3,7 @@ Various user scrips I've modified to work the way I want to, or created from scr
 
 Credit will be given to where I get them, and I will also list what changes I made.
 
-If you have any updates, please let me know! My discord is `Artemis6425`
+If you have any updates, please let me know! My discord is `artemis6425`
 
 These scripts require the usage of [Tampermonkey](https://www.tampermonkey.net/), [ViolentMonkey](https://violentmonkey.github.io/), or some other userscript extension.
 
@@ -29,16 +29,14 @@ I made this
 
 
 ## Twitch Directory Cleaner
-### Last update: 6/19/25
+### Last code update: 6/19/25 | Last ban list update: 7/30/25
 ### Install link: [here](https://github.com/Artemis6425/Artemis-User-Scripts/raw/refs/heads/main/scripts/Twitch%20Directory%20Cleaner.user.js)
 ### Description
 Allows the user to have a list of streams to remove from category directories
 
-The included array of streams to remove are 24/7 streams, primarily in the Super Mario 64 directory.
+The default removed streams are 24/7 streams, primarily in the Super Mario 64 directory.
 
-**Major update:** This now reads from an external `.json` file for the ban list. No more updating the script to get the most up-to-date list! Alternatively, you can replace the `.json` reource link with your own to share your ban list with others. Or, replace the `streams` variable with your own in-code array.
-
-**Minor update:** This now supports the beta Twitch layout with the videoplayer at the top. 
+This reads from an external `.json` file for the ban list that I update periodically. Alternatively, you can replace the `.json` reource link with your own to share your ban list with others. Or, replace the `streams` variable with your own in-code array.
 
 **Note:** This script currently requires you to refresh the category page for it to execute. 
 ### Credit
@@ -60,6 +58,6 @@ Edited/rewritten by me. Based off of [this script](https://greasyfork.org/en/scr
 ### Description
 After a streamer raids another channel, immediately remove the `?referrer=raid` in the URL and refreshes the page.
 
-This works now! I promise (lol i don't think it works still)
+THIS DOES NOT WORK RIGHT NOW, I WILL FIX ONE DAY
 ### Credit
 I made this
